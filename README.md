@@ -8,6 +8,8 @@ x86_64 operating system for intel/amd systems
 >>> core_loader will extend and utilise this information to enumerate the system further
 >>> and load the core while passing the core this information.
 
+>> this is no linux clone, we do some things similar as architecture expects it, but for resource management, filesystems etc. we will develop our own codes and methods. (stubornly as we are!)
+
 [boot]
 > assembly code
   - map system memory
