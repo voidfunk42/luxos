@@ -14,7 +14,7 @@ x86_64 operating system for intel/amd systems
   - initialise basic 32-bit mode to transition to long mode later(flat gdt, no ivt)
   - load core_loader from disk (32 bit binary code)
   - jump to core_loader
-  * research need for boot protocol
+  * research spec for our own boot protocol (this will be initiated by boot and completed by core_loader)
   * no need to support other operating systems than our own eventually.
 
 [core_loader]
